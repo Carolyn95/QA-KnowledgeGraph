@@ -1,0 +1,24 @@
+# Neo4j - docker
+By default, the docker image does not have certificates installed. This means that you will need to disable encryption when connecting with a driver.
+adapt from https://medium.com/@thibaut.deveraux/how-to-install-neo4j-with-docker-compose-36e3ba939af0
+assess link: http://localhost:7474/browser/
+username: neo4j 
+password: Myneo4j
+
+#  .gitignore
+    .vscode/
+    README.md
+    Test.py
+    Test.py.bak
+    config.py
+    const.py
+    const.py.bak
+    docker-compose.yml
+    envr/
+    main.py
+    main.py.bak
+    record.txt
+    service/
+    utils/
+    web/
+    wordembedding/
